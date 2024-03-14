@@ -1,0 +1,22 @@
+name: book-env
+channels:
+  - conda-forge
+dependencies:
+  - fenics-dolfin
+  - python=3.9
+  - matplotlib
+  - k3d
+  - tqdm
+  - panel
+  - jupyter
+  - jupytext
+  - meshio
+  - pyvista
+  - trame
+  - pip
+  - pip:
+    - git+https://github.com/multiphenics/multiphenics.git
+    - git+https://github.com/wildmeshing/wildmeshing-python.git
+    - SciencePlots
+    - dufte
+
